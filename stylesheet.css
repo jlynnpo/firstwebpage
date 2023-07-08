@@ -1,34 +1,45 @@
+body {
+    background-color: rgb(212, 197, 169);
+}
+
+
 header {
-background-color: #00BFFF;
+background-color: #AFEEEE;
 color: black;
 font-family: 'Arial Black';
 font-size: 30px;
 text-align: center;
+padding: 0 auto;
+
 
 }
 
 /* all headers same style */
 
-h1 h2 h3 {
+h1, h2, h3 {
 color: black;
 font-family: 'Arial Black';
-font-size: 20px;
 text-align: center;
 }
 
 img {
 padding: 6px;
-
+margin: 0 auto;
+width: 50%;
+display:block;
 }
 
-/* all paragraphs same style */
+
+
+header p {
+    text-align: center;
+}
 
 p {
-background-color:#FFFACD;
 color: black;
 font-family: Arial ;
 font-size: 16px ;
-text-align: center;
+text-align: left;
 }
 
 hr {
@@ -45,10 +56,12 @@ font-size: 18px;
 
 
 footer {
-background-color: #00BFFF;
+background-color: #AFEEEE;
 color: black; 
 font-family: 'Times New Roman';
 font-size: 12px;
+
+
 }
 
 
